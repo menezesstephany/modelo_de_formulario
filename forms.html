@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>  
+    <form>
+        <label for="nome"> Informe seu nome: </label> <br />
+        <input id="nome" type="text" placeholder="Nome" />
+        <br /><p>
+        <label for="email"> Possui e-mail? </label> <br />
+        <input id="email" type="email" placeholder="E-mail"/>
+        <br /></p>
+        <label for="telefone"> Informe seu telefone: </label> <br />
+        <input id="telefone" type="tel" placeholder="Seu telefone" />
+        <br /><p>
+        <label for="ano-de-nascimento"> Qual é o seu ano de nascimento?</label> <br />
+        <input id="ano-de-nascimento" type="number" max="2024" min="1920" step="1"/>
+        <br /></p>
+        <label for="carregamento-de-imagem"> Envie uma foto sua: </label>
+        <input id="carregamento-de-imagem" type="file" />
+        <br /><p>
+        <label for="cor"> Qual é sua cor favorita? </label>
+        <input type="color" />
+        <br /></p>
+        <label for="estação-do-ano"> Qual sua estação do ano favorita? </label>
+        <input type="radio" name="estação-do-ano" id="verão" /> <label for="verão">Verão</label>
+        <input type="radio" name="estação-do-ano" id="outono" /> <label for="outono">Outono</label>
+        <input type="radio" name="estação-do-ano" id="inverno" /> <label for="inverno">Inverno</label>
+        <input type="radio" name="estação-do-ano" id="primavera" /> <label for="primavera">Primavera</label>
+        <br /><p>
+        <label for="filme-favorito" >Qual seu filme favorito?</label>
+        <textarea></textarea>
+        </p>
+        <input type="checkbox" id="checkbox-termos" /> <label for="checkbox-termos">Aceito os termos</label><br />
+        <br />
+        <button for="enviar" type="submit">
+            Enviar
+        </button>
+        <button for="limpar" type="reset">
+            Limpar
+        </button>
+    </form>  
+</body>
+</html>
